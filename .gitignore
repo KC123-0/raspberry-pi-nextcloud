@@ -1,0 +1,23 @@
+# Sensitive config
+config/*.conf
+!config/*.conf.example
+
+# Logs
+*.log
+*.tmp
+*.bak
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Security audit output
+lynis.log
+lynis-report.dat
+
+# Bash history
+.bash_history
+
+# SSH
+.ssh/
+authorized_keys

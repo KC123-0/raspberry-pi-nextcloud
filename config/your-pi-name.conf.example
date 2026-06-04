@@ -1,0 +1,33 @@
+# Configuration File
+# Copy to /home/pi/your-pi-name.conf and fill in your values
+# chmod 600 /home/pi/your-pi-name.conf
+# NEVER commit this file - it contains sensitive information
+
+# Email Alerts
+ALERT_EMAIL="your@email.com"
+
+# Database
+DB_NAME="nextcloud_db"
+DB_USER="nextcloud"
+DB_PASSWORD="your_db_password"
+
+# Nextcloud
+NEXTCLOUD_CONTAINER="nextcloud"
+NEXTCLOUD_DB_CONTAINER="nextcloud_db"
+NEXTCLOUD_NETWORK="nextcloud_default"
+NEXTCLOUD_DATA="/mnt/storage/nextcloud_data"
+NEXTCLOUD_CONFIG="/portainer/Files/AppData/Config/Nextcloud/Config"
+NEXTCLOUD_DB_PATH="/portainer/AppData/Config/Nextcloud/DB"
+
+# Backup
+BACKUP_ROOT="/mnt/ssd1/backups"
+KEEP_DAYS=30
+MIN_DB_SIZE=1048576
+MIN_DATA_FILES=100
+
+# Network
+LOCAL_IP="192.168.x.x"
+TAILSCALE_IP="100.x.x.x"
+
+# Timezone
+TZ="Europe/London"
