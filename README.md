@@ -1,4 +1,18 @@
-# Raspberry Pi 5 — Self-Hosted Nextcloud
+<table align="center" border="0" cellspacing="0" cellpadding="10">
+  <tr>
+    <td align="center"><img src="1.png" height="150"><br><em>RPi 5 + Cooler</em></td>
+    <td align="center"><img src="2.png" height="150"><br><em>Pi 5 + HAT</em></td>
+    <td align="center"><img src="3.png" height="150"><br><em>Case (Rear)</em></td>
+  </tr>
+</table>
+
+<table align="center" border="0" cellspacing="0" cellpadding="10">
+  <tr>
+    <td align="center"><img src="4.png" height="150"><br><em>Case (Front)</em></td>
+  </tr>
+</table>
+
+  # Raspberry Pi 5 — Self-Hosted Nextcloud
 
 A hardened, self-hosted Nextcloud server on a Raspberry Pi 5 with automated backups, restore testing, health monitoring, and remote access via Tailscale. Built from scratch on bare Debian.
 
